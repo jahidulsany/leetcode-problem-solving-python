@@ -8,9 +8,12 @@ def reverse_number(num : int) -> int:
         construct_num = (construct_num * 10) + last_digit
         num = int(num / 10)
     return construct_num
-    
 
 print(reverse_number(num = 62958653))
+
+
+
+
 
 
 
