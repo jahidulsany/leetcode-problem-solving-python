@@ -4,7 +4,7 @@
 
 ### Two Sum Problem
 
-def two_sum(nums, target):
+def two_sum(nums: list[int], target: int) -> list[int]:
     visited = {}
     for i in range(0, len(nums)):
         current = nums[i]
